@@ -1,8 +1,8 @@
+from fastapi import FastAPI
+from core.config import settings
 from typing import Union
 
-from fastapi import FastAPI
-
-app = FastAPI()
+app = FastAPI(title=settings.PROJECT_NAME,version=settings.PROJECT_VERSION)
 
 
 @app.get("/")
