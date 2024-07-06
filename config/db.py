@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from core.config import settings
 
 
-if settings.MODE == 'DEV':
+if settings.MODE == 'PRO':
   DATABASE_HOST = "bt2gtprzkoxalty9qk10-mysql.services.clever-cloud.com"
   DATABASE_NAME = "bt2gtprzkoxalty9qk10"
   DATABASE_PORT = "3306"
