@@ -17,7 +17,7 @@ else:
   DATABASE_USERNAME = "sgroot" 
   DATABASE_PASSWORD = "M7AS14lw5MfxG,YV"
 
-engine = create_engine('mysql+pymysql://'+DATABASE_USERNAME+':'+DATABASE_PASSWORD+'@'+DATABASE_HOST+':'+DATABASE_PORT+'/'+ DATABASE_NAME,echo=False)
+engine = create_engine('mysql+pymysql://'+DATABASE_USERNAME+':'+DATABASE_PASSWORD+'@'+DATABASE_HOST+':'+DATABASE_PORT+'/'+ DATABASE_NAME,echo=False, pool_size=10, max_overflow=20)
 meta = MetaData()
 meta.reflect(bind=engine)
 
