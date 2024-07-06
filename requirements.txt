@@ -1,2 +1,8 @@
 fastapi==0.95.1 
 uvicorn==0.22.0
+sqlalchemy ==2.0.0
+pymysql
+python-json-logger
+logtail-python
+pytest
+requests
