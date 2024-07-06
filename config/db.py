@@ -11,11 +11,11 @@ if settings.MODE == 'DEV':
   DATABASE_USERNAME = "ukbaaa6m0jfdoyfc" 
   DATABASE_PASSWORD = "ggBucN7HvMi6UXTB3XGK"
 else:
-  DATABASE_HOST = "SG-quaint-server-322-9320-mysql-master.servers.mongodirector.com"
-  DATABASE_NAME = "MMW-PRO"
-  DATABASE_PORT = "3306"
-  DATABASE_USERNAME = "sgroot" 
-  DATABASE_PASSWORD = "M7AS14lw5MfxG,YV"
+  DATABASE_HOST = "mysql-17338b9e-josarta-a5.e.aivencloud.com"
+  DATABASE_NAME = "db-mmw"
+  DATABASE_PORT = "17024"
+  DATABASE_USERNAME = "avnadmin" 
+  DATABASE_PASSWORD = "AVNS_UAFBtJFOrFCFMJeO3-H"
 
 engine = create_engine('mysql+pymysql://'+DATABASE_USERNAME+':'+DATABASE_PASSWORD+'@'+DATABASE_HOST+':'+DATABASE_PORT+'/'+ DATABASE_NAME,echo=False, pool_size=30, max_overflow=-1)
 meta = MetaData()
