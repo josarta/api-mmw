@@ -14,7 +14,7 @@ else:
   DATABASE_HOST = "mysql-17338b9e-josarta-a5.e.aivencloud.com"
   DATABASE_NAME = "db-mmw"
   DATABASE_PORT = "17024"
-  DATABASE_USERNAME = "avnadmin" 
+  DATABASE_USERNAME = "avnadmin"
   DATABASE_PASSWORD = "AVNS_UAFBtJFOrFCFMJeO3-H"
 
 engine = create_engine('mysql+pymysql://'+DATABASE_USERNAME+':'+DATABASE_PASSWORD+'@'+DATABASE_HOST+':'+DATABASE_PORT+'/'+ DATABASE_NAME,echo=False, pool_size=30, max_overflow=-1)
