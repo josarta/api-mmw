@@ -1,7 +1,6 @@
 from typing import Optional
 from pydantic import BaseModel
 from pymysql import Timestamp
-from sqlalchemy import text
 
 class Category(BaseModel):
     category_id: Optional[int]
@@ -10,6 +9,3 @@ class Category(BaseModel):
 
 class CategoryCount(BaseModel):
     total: int 
-    
-class CategoryDelete(BaseModel):
-    state: text
