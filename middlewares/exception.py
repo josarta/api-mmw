@@ -3,6 +3,7 @@ from fastapi import HTTPException, Request , status
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from config.logger import logger , data , genericLoadRequest 
+from aiobreaker.state import CircuitBreakerError
 
 class ExceptionHandlerMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
@@ -24,4 +25,10 @@ class ExceptionHandlerMiddleware(BaseHTTPMiddleware):
            return JSONResponse(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 content={"error": "Internal Server Error", "message": "An unexpected error occurred."},
+            )
+        except CircuitBreakerError as e:
+            print(e)
+            return JSONResponse(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                content={"error": "Internal Server Error", "message": "CircuitBreakerError.", "code":-20005},
             )

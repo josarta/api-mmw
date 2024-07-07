@@ -1,7 +1,6 @@
 import requests
 from fastapi import status 
-
-BASE_URL = 'http://127.0.0.1:8000/'  
+from config.db import BASE_URL
 
 
 def test_get_all_audits():

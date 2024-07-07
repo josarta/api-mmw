@@ -1,0 +1,83 @@
+[
+    {
+      "username": "lion_king",
+      "full_name": "Simba Lion",
+      "email": "simba@animals.com",
+      "password": "lion123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6Imxpb24xMjMifQ.ih_uUAU3oVDVnGx0KXRNpFFOEJev1c3jVLXMWd1wMx8",
+      "state": true
+    },
+    {
+      "username": "eagle_eye",
+      "full_name": "Eddie Eagle",
+      "email": "eddie@animals.com",
+      "password": "eagle123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImVhZ2xlMTIzIn0.sKA9S36Df7UdbLP_WlAO-31jbk8U5EkXZoKLXV584Qg",
+      "state": false
+    },
+    {
+      "username": "dolphin_swimmer",
+      "full_name": "Daisy Dolphin",
+      "email": "daisy@animals.com",
+      "password": "dolphin123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImRvbHBoaW4xMjMifQ.8nW3MMqxSqhnaDdW19Zf2DyFpLGt4njQIDJQfuUvIb0",
+      "state": true
+    },
+    {
+      "username": "cheetah_runner",
+      "full_name": "Chester Cheetah",
+      "email": "chester@animals.com",
+      "password": "cheetah123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImNoZWV0YWgxMjMifQ.oHkyeCo_Hm5b_l1d_NwqC0Heo92dIc_SlNiRBigSd-E",
+      "state": true
+    },
+    {
+      "username": "bear_hugger",
+      "full_name": "Baloo Bear",
+      "email": "baloo@animals.com",
+      "password": "bear123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImJlYXIxMjMifQ.cLILlMns-zyeNth5IWf4MYGT_7gZ4tlrhS3ZXtU5KQU",
+      "state": false
+    },
+    {
+      "username": "wolf_pack",
+      "full_name": "Will Wolf",
+      "email": "will@animals.com",
+      "password": "wolf123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6IndvbGYxMjMifQ.J42aA3G5GA1gJBuyHd90HPSvzn9oAf68Wz9ONor2AxE",
+      "state": true
+    },
+    {
+      "username": "tiger_roar",
+      "full_name": "Tony Tiger",
+      "email": "tony@animals.com",
+      "password": "tiger123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6InRpZ2VyMTIzIn0._SwfYisv2Gztt2mgf1aIGeUGma--_fyrBlYeY7FZ1o4",
+      "state": false
+    },
+    {
+      "username": "owl_night",
+      "full_name": "Olivia Owl",
+      "email": "olivia@animals.com",
+      "password": "owl123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6Im93bDEyMyJ9.fY9tPqTa1UKmporu_1OMdxCqvFWArpJtWwSe0rbKhOU",
+      "state": true
+    },
+    {
+      "username": "elephant_memory",
+      "full_name": "Elmer Elephant",
+      "email": "elmer@animals.com",
+      "password": "elephant123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImVsZXBoYW50MTIzIn0.WtygXu4Z86p6rBhffiQCtPKPwvbzqZSd4Bq2aPYUplc",
+      "state": false
+    },
+    {
+      "username": "fox_sly",
+      "full_name": "Fiona Fox",
+      "email": "fiona@animals.com",
+      "password": "fox123",
+      "hashed_password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXNzd29yZCI6ImZveDEyMyJ9.vRbrM4L5HfPksTJb5nO8kYHMJnJeDxDOvoyPDas1jqg",
+      "state": true
+    }
+  ]
+  

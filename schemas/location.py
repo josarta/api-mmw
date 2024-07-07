@@ -14,4 +14,4 @@ class Location(OrmBaseModel):
     created_at: Optional[Timestamp] # type: ignore
 
 class LocationCount(BaseModel):
-    total: int     
+    total: int 

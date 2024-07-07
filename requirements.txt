@@ -6,3 +6,6 @@ python-json-logger
 logtail-python
 pytest
 requests
+aiobreaker
+pyjwt
+passlib[bcrypt]

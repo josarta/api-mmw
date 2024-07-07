@@ -1,8 +1,6 @@
 import requests
 from fastapi import status 
-
-BASE_URL = 'http://127.0.0.1:8000/'  
-
+from config.db import BASE_URL
 
 def test_create_location_bad():
     response = requests.post(f'{BASE_URL}/locations', json={"latitude": 40.712776, "longitude": -74.005974})
