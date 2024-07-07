@@ -1,4 +1,4 @@
-fastapi==0.95.1 
+fastapi
 uvicorn==0.22.0
 sqlalchemy ==2.0.0
 pymysql
@@ -9,4 +9,3 @@ requests
 aiobreaker
 pyjwt
 passlib[bcrypt]
-httpx
