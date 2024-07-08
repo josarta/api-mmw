@@ -7,6 +7,15 @@ from aiobreaker.state import CircuitBreakerError
 
 class ExceptionHandlerMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
+        """Function implemented as a parallel application for exception handling
+
+        Args:
+            request (Request): _description_
+            call_next (_type_): request for entry that failed
+
+        Returns:
+            JSONResponse: returns json, captures the exception in the http code message and creates a log
+        """
         try:
             return await call_next(request)
         except HTTPException as http_exception:
