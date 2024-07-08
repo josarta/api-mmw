@@ -4,3 +4,5 @@ class Settings:
     #MODE:str = "DEV"
     MODE:str = "PROD"
 settings = Settings()
+
+BASE_URL_TEST = 'http://127.0.0.1:8000/'  

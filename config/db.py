@@ -3,7 +3,6 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import sessionmaker
 from core.config import settings
 
-
 if settings.MODE == 'DEV':
   DATABASE_HOST = "bt2gtprzkoxalty9qk10-mysql.services.clever-cloud.com"
   DATABASE_NAME = "bt2gtprzkoxalty9qk10"

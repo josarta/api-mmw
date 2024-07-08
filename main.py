@@ -4,6 +4,7 @@ from routes.location import location
 from routes.category import category
 from routes.audit import audit
 from routes.token import token
+from routes.location_category import locationCategoryReviewed
 from config.cors import init_cors
 from middlewares.exception import ExceptionHandlerMiddleware
 
@@ -14,4 +15,5 @@ app.include_router(location)
 app.include_router(category)
 app.include_router(audit)
 app.include_router(token)
+app.include_router(locationCategoryReviewed)
 app.add_middleware(ExceptionHandlerMiddleware)
