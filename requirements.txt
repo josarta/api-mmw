@@ -9,3 +9,4 @@ requests
 aiobreaker
 pyjwt
 passlib[bcrypt]
+jinja2
